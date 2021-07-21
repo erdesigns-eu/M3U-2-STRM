@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="12"/>
+    <BuildModes Active="Release">
+      <Item Name="Release">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="m3u2strm"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <CodeGeneration>
+            <SmartLinkUnit Value="True"/>
+            <Optimizations>
+              <OptimizationLevel Value="3"/>
+            </Optimizations>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+            </Debugging>
+            <LinkSmart Value="True"/>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+      <Item Name="Debug">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <Target>
+            <Filename Value="m3u2strm"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Parsing>
+            <SyntaxOptions>
+              <IncludeAssertionCode Value="True"/>
+            </SyntaxOptions>
+          </Parsing>
+          <CodeGeneration>
+            <Checks>
+              <IOChecks Value="True"/>
+              <RangeChecks Value="True"/>
+              <OverflowChecks Value="True"/>
+              <StackChecks Value="True"/>
+            </Checks>
+            <VerifyObjMethodCallValidity Value="True"/>
+          </CodeGeneration>
+          <Linking>
+            <Debugging>
+              <DebugInfoType Value="dsDwarf2Set"/>
+              <UseHeaptrc Value="True"/>
+              <TrashVariables Value="True"/>
+              <UseExternalDbgSyms Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+        </CompilerOptions>
+      </Item>
+    </BuildModes>
+    <Units>
+      <Unit>
+        <Filename Value="m3u2strm.ppr"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="62"/>
+      </Unit>
+      <Unit>
+        <Filename Value="untmain.pas"/>
+        <FRMtype Value="0"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="885"/>
+        <CursorPos X="19" Y="933"/>
+        <UsageCount Value="62"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="jsontools.pas"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="JsonTools"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="119"/>
+        <CursorPos X="14" Y="146"/>
+        <UsageCount Value="31"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/local/codetyphon/typhon/lcl/include/customform.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="213"/>
+        <CursorPos Y="243"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="../M3U Editor Pro/Units/untm3u.pas"/>
+        <FRMtype Value="0"/>
+        <UnitName Value="untM3U"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <UsageCount Value="6"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/local/codetyphon/fpcsrc/rtl/objpas/classes/classesh.inc"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="834"/>
+        <CursorPos X="49" Y="863"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="/usr/local/codetyphon/fpcsrc/rtl/inc/sortbase.pp"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="7"/>
+        <CursorPos X="3" Y="36"/>
+        <UsageCount Value="7"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="28">
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="687" Column="5" TopLine="668"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="791" Column="5" TopLine="754"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="697" Column="50" TopLine="671"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="709" Column="52" TopLine="683"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="715" Column="24" TopLine="692"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="596" Column="33" TopLine="584"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="742" Column="21" TopLine="785"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="779" Column="9" TopLine="742"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="722" Column="10" TopLine="696"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="660" Column="37" TopLine="648"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="321" Column="40" TopLine="292"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="595" Column="45" TopLine="580"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="321" Column="43" TopLine="292"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="595" Column="43" TopLine="566"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="951" Column="73" TopLine="912"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="876" Column="34" TopLine="847"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="90" Column="56" TopLine="62"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="884" Column="34" TopLine="840"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="883" Column="34" TopLine="839"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="876" Column="34" TopLine="839"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="1001" Column="21" TopLine="948"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="996" Column="19" TopLine="963"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="928" Column="34" TopLine="903"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="75" Column="18" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="78" Column="56" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="921" Column="34" TopLine="901"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="922" Column="52" TopLine="890"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="935" Column="52" TopLine="907"/>
+      </Position>
+      <Position>
+        <Filename Value="untmain.pas"/>
+        <Caret Line="923" Column="20" TopLine="893"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
